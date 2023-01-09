@@ -6,5 +6,8 @@ public class Main {
         vasya.setAge(6);
         vasya.setColor(Cat.CatColor.WHITE);
         System.out.println(vasya);
+
+        var mysya = vasya.copyCat();
+        System.out.println(mysya);
     }
 }

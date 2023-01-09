@@ -1,6 +1,3 @@
-import org.jetbrains.annotations.Contract;
-import org.jetbrains.annotations.NotNull;
-
 public class Cat {
     private int age;
     private final String name;     // constant for object type
@@ -30,8 +27,18 @@ public class Cat {
         this.name = name;
     }
 
+    public Cat(int age, String name, CatColor color) {
+        this.age = age;
+        this.name = name;
+        this.color = color;
+    }
+
     public static void Meow() {
         System.out.println("Meow");
+    }
+
+    public Cat copyCat() {
+        return new Cat(this.age, this.name, this.color);
     }
 
     @Override
