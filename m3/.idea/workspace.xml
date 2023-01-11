@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="63718c60-0919-4e1b-b9f9-31bf95659697" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/m3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/m3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/m3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/m3/Container.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/m3/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/m3/m3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="63718c60-0919-4e1b-b9f9-31bf95659697" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
