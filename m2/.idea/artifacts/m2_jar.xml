@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="m2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/m2_jar</output-path>
+    <root id="archive" name="m2.jar">
+      <element id="module-output" name="m2" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/airport/airport-1.0.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
