@@ -8,10 +8,12 @@ public class Main
 {
     public static void main(String[] args) throws ParseException {
         ArrayList<Employee> staff = loadStaffFromFile();
-        Collections.sort(staff, (Comparator.comparingInt(Employee::getSalary).thenComparing(Employee::getName)));
+        staff.sort((Comparator.comparingInt(Employee::getSalary).thenComparing(Employee::getName)));
 
-//        for (Employee employee : staff)
-//            System.out.println(employee.toString());
+        for (Employee employee : staff)
+            System.out.println(employee.toString());
+
+        System.out.println();
 
         // m7_2 solution:
         SimpleDateFormat year2017 = new SimpleDateFormat("yyyy");
